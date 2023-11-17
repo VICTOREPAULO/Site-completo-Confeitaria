@@ -1,0 +1,123 @@
+.logo{
+    width: 50%;
+
+}
+body{
+    background-color: rgb(142, 87, 149);
+    
+}
+
+.divLogo{
+text-align:center;
+position:absolute;
+right: 45%;
+    
+}
+
+header{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    background-color: rgb(212, 88, 88);
+    padding: 10px;
+}
+/* Estilos para o cabeçalho (header) */
+header {
+    background-color: #ffffff00;
+    padding: 20px;
+    text-align:right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #452d6b;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 20px 0;
+    font-size: 36px;
+    color: #452d6b;
+}
+
+/* Estilos para o rodapé (footer) */
+footer {
+    background-color: #00000000;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Estilos gerais */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: rgb(238, 144, 250);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #fffcfc}
+  
+  .button:active {
+    background-color: #000000;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+footer{
+    background-color: rgb(238, 144, 250);
+    color:#000000;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1180px;
+    margin:0 auto;  
+    gap: 20px;
+}
+.caixa{
+
+    width: 30%;
+    margin-left: 20px;
+    padding: 10px;
+    font-family:fantasy;
+    color:  #020202;
+    border-color: #ffffff;
+    border-style: solid;
+    
+}
+.cupcakescoloridos{
+    display: inline-block;
+    width: 50px;
+}
+

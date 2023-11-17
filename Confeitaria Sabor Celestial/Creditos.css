@@ -1,0 +1,11 @@
+body{
+    background-color:rgb(255, 216, 190);
+}
+.caixa{
+    margin-left: 10px;
+    padding: 5px;
+    font-family:fantasy;
+    color:#000000;
+    border-color: #000000;
+    border-style:double;
+}

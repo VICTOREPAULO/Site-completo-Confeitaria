@@ -1,0 +1,65 @@
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #000000;
+    background-color: rgb(243, 148, 88);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #fffcfc}
+  
+  .button:active {
+    background-color: rgb(252, 252, 252);
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+  }
+
+.faleconosco{
+    padding-left: 100px;
+    
+
+}
+.divLogo{
+    text-align:center;
+    
+    right: 45%;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    align-items:flex-start;
+    max-width: 1180px;
+}
+.logo{
+    width: 10%;
+    
+}
+footer{
+    background-color: rgb(238, 144, 250);
+    color:#000000;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+.caixa{
+    margin-left: 100px;
+    padding: 15px;
+    font-family:fantasy;
+    color:#000000;
+    border-color: #000000;
+    border-style: solid;
+}
+
+body{
+    background-color:rgb(255, 216, 190);
+}
